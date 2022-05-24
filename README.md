@@ -13,9 +13,5 @@
 ./scripts/service {start|stop|restart|status} {app-name}  
 ```
 start - выполняет ```go build -o {/bin/app-name}``` с дальнейшим запуском  
-stop - выполняет 'kill' по основному и дочерним процессам  
-restart - 'stop' + 'start'
-
-
-
-
+stop - выполняет ```kill``` по основному и дочерним процессам  
+restart - последовантельно выполняет ```stop``` + ```start```  

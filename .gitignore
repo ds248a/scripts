@@ -1,0 +1,12 @@
+# Binaries for programs and plugins
+*~
+*.sublime*
+vendor/
+/bin
+/test
+/build
+/release
+/tmp
+/logs
+/run
+/*.yaml
